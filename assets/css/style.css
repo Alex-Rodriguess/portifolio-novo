@@ -268,7 +268,7 @@ span {
 }
 
 .portifolio h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .portifolio-container {
@@ -279,7 +279,7 @@ span {
 }
 
 .portifolio-container .portifolio-box {
-  position: relative;
+  position:relative;
   border-radius: 2rem;
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
@@ -288,6 +288,11 @@ span {
 
 .portifolio-box img {
   width: 100%;
+  transition: .5s ease;
+}
+
+.portifolio-box:hover img {
+  transform: scale(1.1);
 }
 
 .portifolio-box .portifolio-layer {
@@ -303,7 +308,40 @@ span {
   flex-direction: column;
   text-align: center;
   padding: 0 4rem;
+  transform: translateY(100%);
+  transition: .5s ease;
 }
+
+.portifolio-box:hover .portifolio-layer {
+  transform: translateY(0);
+}
+
+.portifolio-layer h4 {
+  font-size: 24px;
+}
+
+.portifolio-layer p {
+  font-size: 1rem;
+  margin: .3rem 0 1rem;
+}
+
+.portifolio-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background: var(--text-color);
+  border-radius: 50%;
+
+}
+
+.portifolio-layer a i {
+  font-size: 18px;
+  color: var(--second-bg-color);
+}
+
+
 
 /*KEYFRAMES ANIMATION*/
 
