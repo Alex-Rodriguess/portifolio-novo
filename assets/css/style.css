@@ -204,7 +204,7 @@ span {
 }
 
 .sobre-img img {
-  max-width: 60vw;
+  max-width: 30vw;
 }
 
 .heading {
@@ -246,7 +246,7 @@ span {
 .services-container .services-box {
   flex: 1 1 15rem;
   background-color: var(--second-bg-color);
-  padding: 3rem 2rem 4rem;
+  padding: 3rem 2rem 2rem;
   border-radius: 2rem;
   text-align: center;
   border: .2rem solid var(--bg-color);
