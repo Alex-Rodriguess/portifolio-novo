@@ -21,7 +21,7 @@
 }
 
 hmtl {
-  font-size: 62.5%;
+  font-size: 60%;
   overflow-x: hidden;
 }
 
@@ -134,14 +134,14 @@ span {
 }
 
 .home-content p {
-  font-size: 16px;
+  font-size: 19px;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1s;
   opacity: 0;
 }
 
 .home-img img {
-  max-width: 450px;
+  max-width: 400px;
   opacity: 0;
   animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
   animation-delay: 2s;
@@ -191,6 +191,7 @@ span {
 
 .btn:hover {
   box-shadow: none;
+  color:#fff;
 }
 
 .sobre {
@@ -202,21 +203,19 @@ span {
 }
 
 .sobre-img {
-  width: 70vw;
+  width: 40vw;
   margin-bottom: 15%;
 }
 
 .sobre-img img {
-  max-width: 30vw;
+  max-width: 25vw;
 }
 
 .heading {
   position: relative;
-  margin-top: -35%;
+  margin-top: -5rem;
   text-align: center;
   font-size: 50px;
-  
-  
 }
 
 .sobre-content h2 {
@@ -226,11 +225,11 @@ span {
 }
 
 .sobre-content h3 {
-  font-size: 2rem;
+  font-size: 18px;
 }
 
 .sobre-content p {
-  font-size: 20px;
+  font-size: 19px;
   margin: 2rem 0 3rem;
 }
   
@@ -262,18 +261,18 @@ span {
 }
 
 .services-box i {
-  font-size: 5rem;
+  font-size: 3rem;
   color: var(--main-color);
 }
 
 .services-box h3 {
-  font-size: 28px;
+  font-size: 20px;
 
 }
 
 .services-box p {
   font-size: 18px;
-  margin: 1rem 0 3rem;
+  margin: 1rem 0 2rem;
 }
 
 .portifolio {
@@ -281,14 +280,14 @@ span {
 }
 
 .portifolio h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .portifolio-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .portifolio-container .portifolio-box {
@@ -332,7 +331,7 @@ span {
 }
 
 .portifolio-layer h4 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .portifolio-layer p {
@@ -361,7 +360,7 @@ span {
 }
 
 .contact form {
-  max-width: 60rem;
+  max-width: 50rem;
   margin: 1rem auto;
   text-align: center;
   margin-top: -2%;
@@ -377,12 +376,12 @@ span {
 .contact form .input-box input,
 .contact form textarea {
   width: 100%;
-  padding: 15px;
+  padding: 8px;
   font-size: 18px;
   color: var(--text-color);
   background: var(--second-bg-color);
   border-radius: .8rem;
-  margin: .5rem 0;
+  margin: .2rem 0;
   
 }
 
