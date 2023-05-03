@@ -627,7 +627,7 @@ span {
   }
 
   .sobre-img img {
-    width: 90vw;
+    max-width: 90vw;
   }
 
   .footer {
